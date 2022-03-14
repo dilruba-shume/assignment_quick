@@ -1,0 +1,101 @@
+@Media (max-width: 1400px){
+	.banner h1{
+		font-size: 45px;
+	}
+	.banner img{
+		width: 600px;
+	}
+	.feature-section h1{
+		font-size: 45px;
+	}
+	.feature-section h2{
+		font-size: 45px;
+	}
+
+	.container-sm{
+		max-width: 900px;
+	}
+	.service{
+		padding: 45px 20px;
+	}
+	.col-3 {
+		padding: 10px;
+	}
+	.service h3{
+		font-size: 22px;
+		margin: 16px 0;
+	}
+
+}
+
+@Media (max-width: 1200px){
+	.container{
+	padding-right: 50px;
+	padding-left: 50px;
+    }
+
+.service h3{
+		font-size: 20px;
+		margin: 5px 0;
+	}
+}
+
+@Media (max-width: 992px){
+	.col-3{
+	flex-basis: 50%;
+	max-width: 50%;
+	padding: 20px;
+}
+.service-section .flex,
+.feature-section .flex{
+	justify-content: center;
+}
+.col-2{
+	flex-basis: 60%;
+	max-width: 60%;
+	padding: 10px;
+}
+.text-right{
+	text-align: center;
+}
+.feature-section h1{
+	font-size: 30px;
+	text-align: center;
+}
+.container-sm{
+		max-width: 500px;
+	}
+	.banner h1{
+		font-size: 35px;
+	}
+	.banner img{
+		width: 400px;
+	}
+	.banner-section{
+	padding-bottom: 0;
+    }
+    nav ul li a{
+    	padding: 10px 15px;
+
+    }
+}
+
+@Media(max-width: 767px){
+	nav, .logo, .col-3{
+	flex-basis: 100%;
+	max-width: 100%;
+
+    }
+    .logo{
+	text-align: center;
+}
+.container-sm{
+	max-width: 100%;
+	padding: 0 20px;
+	}
+nav ul {
+    
+    justify-content: center;
+    
+}
+}
